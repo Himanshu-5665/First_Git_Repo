@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Network</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Social Network Menu</h2>
+        <input type="text" id="username" placeholder="Enter user name" />
+        <button onclick="addUser()">Add User</button>
+
+        <input type="text" id="user1" placeholder="Enter first user name" />
+        <input type="text" id="user2" placeholder="Enter second user name" />
+        <button onclick="addFriend()">Add Friend</button>
+
+        <button onclick="displayMutualFriends()">Display Mutual Friends</button>
+
+        <input type="text" id="username1" placeholder="Enter user name" />
+        <button onclick="suggestNewFriends()">Suggest New Friends</button>
+
+        <div id="output"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
